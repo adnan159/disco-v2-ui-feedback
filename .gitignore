@@ -1,0 +1,5 @@
+# Design source: original design.html, design-v2.html and build scripts
+design-src/
+
+# macOS
+.DS_Store
