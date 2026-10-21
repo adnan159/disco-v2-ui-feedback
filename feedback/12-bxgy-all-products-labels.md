@@ -30,4 +30,4 @@ The other Get options do different things (a set product, a category/tag item, o
   | Only these (e.g. Candles) | Buy **2 from Candles** | **cheapest Candle** / **most expensive Candle** |
 
 - **Fix the summary**, e.g. "Buy any 2 items, get the cheaper one free".
-- **Use the shared "Which one: Cheapest / Most expensive" control** suggested in [11-bxgy-matched-cheapest-only.md](11-bxgy-matched-cheapest-only.md), so the Get list only says *where* the item comes from and "Which one" says *which* item.
+- **Use the shared "Which one: Cheapest / Most expensive" control** suggested in [10-bxgy-specific-products.md](10-bxgy-specific-products.md), so the Get list only says *where* the item comes from and "Which one" says *which* item.

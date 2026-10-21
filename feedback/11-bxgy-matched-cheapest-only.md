@@ -1,16 +1,35 @@
-# Buy X get Y: "matched by category, tag, brand or SKU" can't give the most expensive item
+# Buy X get Y: wording in the "Get" dropdown
 
-![Get: matched by category, tag, brand or SKU](../screenshots/bxgy-matched-cheapest-only.png)
+*Update: the "Get" options work as intended, so no functional change is needed. The only issue is the wording of the options.*
 
-## Issues
+## Issue
 
-**Steps:** Campaigns → Discounts → New discount → Give something free → Buy X, get Y → Next: Reward → Get → matched by category, tag, brand or SKU → at → % off
+**Steps:** Campaigns → Discounts → New discount → Give something free → Buy X, get Y → Next: Reward → Get
 
-1. **No Cheapest / Most expensive choice (marker 1).** With **Get: matched by category, tag, brand or SKU**, the owner can't give the **highest-priced** matching item free or discounted. Only the "same products" options come in two versions ("cheapest of…" and "most expensive of…"). This option has no such choice.
-2. **The helper text is fixed (marker 2).** It always says "Cheapest matching item in the cart is **free**.", even when "at" is set to % off, $ off or a fixed price (the screenshot shows "at 50% off").
+![The Get dropdown](../screenshots/bxgy-get-dropdown-copy.png)
+
+*The dropdown is shown opened for the screenshot.*
+
+The "Get" dropdown lists (marker 1):
+
+- cheapest of the same products
+- most expensive of the same products
+- specific products
+- matched by category, tag, brand or SKU
+- the shopper chooses from a list
+
+Problems with the wording:
+
+1. **"Same products" is unclear.** It means the products picked in step 1 (the Buy products), but owners can read it as "the same product" (Buy X get X).
+2. **The options are long sentence fragments in lowercase**, while other dropdowns use short labels that start with a capital letter (e.g. "% off", "Fixed price each").
+3. **"Matched by category, tag, brand or SKU" and "the shopper chooses from a list"** describe how it works instead of naming the option.
 
 ## Suggestion
 
-- **Add a "Which one" choice** to this option: **Cheapest / Most expensive** (plus "Shopper chooses" if needed).
-- **Make the helper text follow the settings**, e.g. "The most expensive matching item in the cart gets 50% off".
-- **Use one shared "Which one" control for every Get option** (same products, specific products, matched by category/tag/brand/SKU), instead of separate "cheapest of…" and "most expensive of…" entries in the dropdown.
+| Now | Change to |
+|---|---|
+| cheapest of the same products | Cheapest of the Buy products |
+| most expensive of the same products | Most expensive of the Buy products |
+| specific products | Specific products |
+| matched by category, tag, brand or SKU | Products by category, tag, brand or SKU |
+| the shopper chooses from a list | Gift list (shopper chooses) |
